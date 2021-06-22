@@ -1,0 +1,118 @@
+
+    body {
+      background-image: url("service.jpg");
+       position: fixed;
+       
+    
+    
+      width: 100%;
+      scroll-behavior: smooth;
+    
+      background-position: center;
+      background-repeat: no-repeat;
+     background-size: cover;
+     
+     padding-bottom: 80%;
+    }
+    .h1{
+
+    color: rgb(235, 34, 19);
+    padding:10% ;
+   
+    }
+        
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+    }
+    
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 25px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      padding-left: 16px;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 25px;
+      background-color: inherit;
+      font: inherit;
+      margin: 0;
+      
+     padding-left: 200px;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(190, 14, 111);
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: 100%;
+      left: 0;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content .header {
+      background: white;
+      padding: 8px;
+      color: white;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: right;
+      width: 15.33%;
+      padding: 5px;
+      background-color: whitesmoke;
+      height: 280px;
+    }
+    
+    .column a {
+      float: none;
+      color: black;
+      padding: 8px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .column a:hover {
+      background-color: #ddd;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
