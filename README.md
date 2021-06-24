@@ -5,4 +5,4 @@
  sign in/sign up and can even book appointments. Users can also check rate list of the various services provided 
  and gallery of saloon infrastructure.
 </p>
-Link to Website:  https://lavkushtechwiz.github.io/Salon-Management-System/
+Link to Website:  https://lavkush5776.github.io/Salon-Management-System/
